@@ -54,6 +54,7 @@
       - "/mnt/unionfs/Media/deezer:/downloads:rw"
       - "/opt/deezloader/config:/config:rw"
       - "/mnt:/mnt:rw"
+      - "/mnt/gdrive/Plex/Music/Music:/storage:rw"
     labels:
       "com.github.cloudbox.cloudbox_managed": "true"
     networks:
